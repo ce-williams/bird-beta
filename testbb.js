@@ -4,20 +4,31 @@ This array contains information about various bird species. Within each array it
 ["name", Do they display Orange Yellow or Red (t/f), beak type (1-5 code)]
 
 [i][0] code: bird name as a string
+
 [i][1] code: true or false.  1 = true. 2 = false
 [i][2] code: beak type by number. 1 = finch, 2 = thin, 3 = hawk, 4 = long heavy, 5 = tiny
+
+[i][3] code: streaking/spotting below by number. 1 = plain, 2 = spotted, 3 = streaked, 4 = all dark
+[i][4] code: throat/chest pattern by number. 1 = pale, 2 = Dark band on lower throat or upper chest, 3 = all dark
+
+[i][5] code: pattern on back by number. 1 = plain, 2 = streaked, 3 = solid blackish
+[i][6] code: pattern on wings by number. 1 = Wing bars weak to absent, 2 = Conspicuous pale wing bar(s), 3 = Pale patch at primary bases
+
+[i][7] code: pattern on face by number. 1 = plain, 2 = eye ring or "spectacles", 3 = Pale stripe over eye, 4 = Dark mask
+
+
 
 */
 
 
 var birdsInfo = [
-["Olive-sided Flycatcher", 2, 2 ],
+["Olive-sided Flycatcher", 2, 2, 1,	1, 1, 1, 1 ],
 
-["Northern Shrike", 2, 3 ],
+["Northern Shrike", 2, 3, 1, 1,	1, 3,	4 ],
 
-["Blue Jay", 2, 2 ],
+["Blue Jay", 2, 2, 1, 2, 1, 2, 1 ],
 
-["American Crow", 2, 4 ],
+["American Crow", 2, 4, 4, 3, 3, 1, 1 ],
 ["Common Raven", 2, 4 ],
 
 ["Purple Martin M", 2, 5 ],
@@ -196,8 +207,19 @@ var birdsInfo = [
 ["American Goldfinch breeding M", 1, 1]
 ];
 
+/* 
+
+The name possibleNumber for the following arrays indicates the qualities of the the previous number are present in the current array.
+
+*/
+
 var possibleOne = [ ];
 var possibleTwo = [ ];
+var possibleThree = [ ];
+var possibleFour = [ ];
+var possibleFive = [ ];
+var possibleSix = [ ];
+var possibleSeven = [ ];
 var possibleTotal = [ ];
 
 var oneValue
@@ -209,6 +231,33 @@ var twoValue
 var questionTwo
 var questionTwoAnswer
 var responseTwo
+
+var threeValue
+var questionThree
+var questionThreeAnswer
+var responseThree
+
+var fourValue
+var questionFour
+var questionFourAnswer
+var responseFour
+
+
+var fiveValue
+var questionFive
+var questionFiveAnswer
+var responseFive
+
+
+var sixValue
+var questionSix
+var questionSixAnswer
+var responseSix
+
+var sevenValue
+var questionSeven
+var questionSevenAnswer
+var responseSeven
 
 var name
 var html
@@ -247,13 +296,48 @@ if (questionTwoAnswer > 0) {
   var twoValue = "undefined";
 }
 
+
+
 for (var i = 0; i < birdsInfo.length; i += 1 ){
     responseOne = birdsInfo [i][1];
     responseTwo = birdsInfo [i][2];
+    responseThree = birdsInfo [i][3];
+    responseFour = birdsInfo [i][4];
+    responseFive = birdsInfo [i][5];
+    responseSix = birdsInfo [i][6];
+    responseSeven = birdsInfo [i][7];
+    
+    possibleOne = birdsInfo [i][1];
+    possibleTwo = birdsInfo [i][1][2];
+    possibleThree = birdsInfo [i][1][2][3];
+    possibleFour = birdsInfo [i][1][2][3][4];
+    possibleFive = birdsInfo [i][1][2][3][4][5];
+    possibleSix = birdsInfo [i][1][2][3][4][5][6];
+    possibleSeven = birdsInfo [i][1][2][3][4][5][6][7];
+
     name = birdsInfo [i][0];
-    if (responseOne == questionOneAnswer && responseTwo == twoValue){
-        possibleOne.push(name);
+    if (responseOne == questionOneAnswer) {
+        possibleOne = true;
+    } if (responseTwo == questionTwoAnswer) {
+        possibleTwo = true;
+        if (responseThree == questionThreeAnswer) {
+          possibleThree = true;
+          if (responseFour == questionFourAnswer) {
+            possibleFour == true;
+            if (responseFive == questionFiveAnswer) {
+              possibleFive == true;
+              if (responseSix == questionSixAnswer) {
+                possibleSix == true;
+                if (responseSeven == questionSevenAnswer) {
+                  possibleSeven == true;
+                }
+              }
+            }
+          }
+        }
     }
+
+    
     
     
 }
