@@ -29,182 +29,183 @@ var birdsInfo = [
 ["Blue Jay", 2, 2, 1, 2, 1, 2, 1 ],
 
 ["American Crow", 2, 4, 4, 3, 3, 1, 1 ],
-["Common Raven", 2, 4 ],
+["Common Raven", 2, 4, 4, 3, 3, 1, 1 ],
 
-["Purple Martin M", 2, 5 ],
-["Purple Martin F", 2, 5 ],
-["Tree Swallow", 2, 5 ],
-["Northern Rough-winged Swallow", 2, 5 ],
-["Bank Swallow", 2, 5 ],
-["Black-capped Chickadee", 2, 5 ],
+["Purple Martin M", 2, 5, 4, 3, 3, 1, 1 ],
+["Purple Martin F", 2, 5, 1, 1, 3, 1, 1 ],
+["Tree Swallow", 2, 5, 1, 1, 3, 1, 1 ],
+["Northern Rough-winged Swallow", 2, 5, 1, 1, 1, 1, 1 ],
+["Bank Swallow", 2, 5, 1, 2, 1, 1, 1 ],
+["Black-capped Chickadee", 2, 5, 1, 3, 1, 1, 1 ],
 
-["Brown Creeper", 2, 2],
-["House Wren", 2, 2 ],
-["Winter Wren", 2, 2 ],
-["Sedge Wren", 2, 2 ],
-["Marsh Wren", 2, 2 ],
-["Blue-gray Gnatcatcher", 2, 2 ],
-["Veery", 2, 2 ],
-["Gray-cheeked Thrush", 2, 2 ],
-["Swainson's Thrush", 2, 2 ],
-["Hermit Thrush", 2, 2 ],
-["Wood Thrush", 2, 2 ],
-["Brown Thrasher", 2, 2 ],
-["European Starling", 2, 2 ],
-["American Pipit", 2, 2 ],
-["Tennessee Warbler breeding M", 2, 2 ],
-["Blackpoll Warbler breeding M", 2, 2 ],
-["Cerulean Warbler M", 2, 2 ],
-["Black-and-white Warbler M", 2, 2 ],
-["Black-and-white Warbler F", 2, 2 ],
+["Brown Creeper", 2, 2, 1, 1, 2, 2, 3 ],
+["House Wren", 2, 2, 1, 1, 1, 1, 1 ],
+["Winter Wren", 2, 2, 1, 1, 1, 1, 3 ],
+["Sedge Wren", 2, 2, 1, 1, 2, 1, 3 ],
+["Marsh Wren", 2, 2, 1, 1, 2, 1, 3 ],
+["Blue-gray Gnatcatcher", 2, 2, 1, 1, 1, 1, 2 ],
+["Veery", 2, 2 , 2, 1, 1, 1, 1],
+["Gray-cheeked Thrush", 2, 2, 2, 1, 1, 1, 1],
+["Swainson's Thrush", 2, 2 , 2, 1, 1, 1, 2],
+["Hermit Thrush", 2, 2, 2, 1, 1, 1, 2 ],
+["Wood Thrush", 2, 2, 2, 1, 1, 1, 2 ],
+["Brown Thrasher", 2, 2, 3, 1, 1, 2, 1 ],
+["European Starling", 2, 2, 4, 3, 3, 1, 1 ],
+["American Pipit", 2, 2, 3, 1, 2, 2, 3 ],
+["Tennessee Warbler breeding M", 2, 2, 1, 1, 1, 1, 3 ],
+["Blackpoll Warbler breeding M", 2, 2, 3, 1, 2, 2, 1 ],
+["Cerulean Warbler M", 2, 2, 3, 2, 2, 2, 1 ],
+["Black-and-white Warbler M", 2, 2, 3, 3, 2, 2, 3 ],
+["Black-and-white Warbler F", 2, 2, 3, 1, 2, 2, 3 ],
 
-["American Tree Sparrow", 2, 1],
-["Chipping Sparrow", 2, 1],
-["Clay-colored Sparrow", 2, 1],
-["Field Sparrow", 2, 1 ],
-["Vesper Sparrow", 2, 1 ],
-["Lark Sparrow", 2, 1 ],
-["Fox Sparrow", 2, 1 ],
-["Song Sparrow", 2, 1 ],
-["Lincoln's Sparrow", 2, 1 ],
-["Swamp Sparrow", 2, 1 ],
-["Harris's Sparrow", 2, 1 ],
-["White-crowned Sparrow", 2, 1 ],
-["Dark-eyed Junco M", 2, 1 ],
-["Dark-eyed Junco F", 2, 1 ],
-["Lapland Longspur breeding M", 2, 1 ],
-["Lapland Longspur F, nonbreeding M", 2, 1 ],
-["Snow Bunting breeding", 2, 1 ],
-["Snow Bunting nonbreeding", 2, 1 ],
-["Indigo Bunting M", 2, 1 ],
-["Indigo Bunting F", 2, 1 ],
-["Bobolink F, nonbreeding M", 2, 1 ],
-["Red-winged Blackbird F", 2, 1 ],
+["American Tree Sparrow", 2, 1, 1, 1, 2, 2, 3],
+["Chipping Sparrow", 2, 1, 1, 1, 2, 2, 3],
+["Clay-colored Sparrow", 2, 1, 1, 1, 2, 2, 3],
+["Field Sparrow", 2, 1, 1, 1, 2, 2, 2 ],
+["Vesper Sparrow", 2, 1, 3, 1, 2, 1, 2 ],
+["Lark Sparrow", 2, 1, 1, 1, 2, 1, 3 ],
+["Fox Sparrow", 2, 1, 3, 1, 1, 1, 1 ],
+["Song Sparrow", 2, 1, 3, 1, 2, 1, 3 ],
+["Lincoln's Sparrow", 2, 1, 3, 1, 2, 1, 3 ],
+["Swamp Sparrow", 2, 1, 1, 1, 2, 1, 3 ],
+["Harris's Sparrow", 2, 1, 3, 3, 2, 2, 1 ],
+["White-crowned Sparrow", 2, 1, 1, 1, 2, 2, 3 ],
+["Dark-eyed Junco M", 2, 1, 1, 3, 3, 1, 1 ],
+["Dark-eyed Junco F", 2, 1, 1, 3, 1, 1, 1 ],
+["Lapland Longspur breeding M", 2, 1, 3, 3, 2, 1, 3 ],
+["Lapland Longspur F, nonbreeding M", 2, 1, 3, 2, 2, 1, 3 ],
+["Snow Bunting breeding", 2, 1, 1, 1, 3, 2, 1 ],
+["Snow Bunting nonbreeding", 2, 1, 1, 1, 2, 2, 1 ],
+["Indigo Bunting M", 2, 1, 4, 3, 3, 1, 1 ],
+["Indigo Bunting F", 2, 1, 1, 1, 1, 1, 1 ],
+["Bobolink F, nonbreeding M", 2, 1, 3, 1, 2, 1, 3 ],
+["Red-winged Blackbird F", 2, 1, 3, 1, 2, 1, 3 ],
 
-["Rusty Blackbird breeding", 2, 2 ],
-["Rusty Blackbird nonbreeding", 2, 2 ],
-["Common Grackle", 2, 2 ],
+["Rusty Blackbird breeding", 2, 2, 4, 3, 3, 1, 1 ],
+["Rusty Blackbird nonbreeding", 2, 2, 4, 3, 3, 1, 3 ],
+["Common Grackle", 2, 2, 4, 3, 3, 1, 1 ],
 
-["Brown-headed Cowbird M", 2, 1],
-["Brown-headed Cowbird F", 2, 1 ],
-["Purple Finch F", 2, 1 ],
-["House Finch F", 2, 1 ],
-["House Sparrow M", 2, 1 ],
-["House Sparrow F", 2, 1 ],
+["Brown-headed Cowbird M", 2, 1, 4, 3, 3, 1, 1],
+["Brown-headed Cowbird F", 2, 1, 1, 1, 1, 1, 1 ],
+["Purple Finch F", 2, 1, 3, 1, 2, 1, 3 ],
+["House Finch F", 2, 1, 3, 1, 2, 1, 1 ],
+["House Sparrow M", 2, 1, 1, 3, 2, 2, 1 ],
+["House Sparrow F", 2, 1, 1, 1, 2, 2, 3 ],
 
-["Eastern Wood-Pewee", 1, 2],
-["Alder Flycatcher", 1, 2],
-["Eastern Phoebe", 1, 2],
-["Warbling Vireo", 1, 2],
-["Red-eyed Vireo", 1, 2],
-["Tennessee Warbler F, nonbreeding M", 1, 2],
-["Yellow-rumped Warbler nonbreeding F", 1, 2],
-["Pine Warbler nonbreeding F", 1, 2],
-["Bay-breasted Warbler nonbreeding F", 1, 2],
-["Blackpoll Warbler F, nonbreeding M", 1, 2],
-["Cerulean Warbler F", 1, 2],
-["Northern Waterthrush", 1, 2],
+["Eastern Wood-Pewee", 1, 2, 1, 1, 1, 2, 1],
+["Alder Flycatcher", 1, 2, 1, 1, 1, 2, 2],
+["Eastern Phoebe", 1, 2, 1, 1, 1, 1, 1],
+["Warbling Vireo", 1, 2, 1, 1, 1, 1, 3],
+["Red-eyed Vireo", 1, 2, 1, 1, 1, 1, 3],
+["Tennessee Warbler F, nonbreeding M", 1, 2, 1, 1, 1, 1, 3],
+["Yellow-rumped Warbler nonbreeding F", 1, 2, 3, 1, 2, 2, 3],
+["Pine Warbler nonbreeding F", 1, 2, 3, 1, 1, 2, 2],
+["Bay-breasted Warbler nonbreeding F", 1, 2, 1, 1, 2, 2, 1],
+["Blackpoll Warbler F, nonbreeding M", 1, 2, 3, 1, 2, 2, 3],
+["Cerulean Warbler F", 1, 2, 3, 1, 1, 2, 3],
+["Northern Waterthrush", 1, 2, 3, 1, 1, 1, 3],
 
-["Savannah Sparrow", 1, 1],
-["White-throated Sparrow", 1, 1],
-["Rose-breasted Grosbeak F", 1, 1],
-["Dickcissel F", 1, 1],
-["Bobolink breeding M", 1, 1],
-["Pine Siskin", 1, 1],
-["American Goldfinch nonbreeding F", 1, 1],
+["Savannah Sparrow", 1, 1, 3, 1, 2, 1, 3],
+["White-throated Sparrow", 1, 1, 1, 1, 2, 2, 3],
+["Rose-breasted Grosbeak F", 1, 1, 3, 1, 2, 2, 3],
+["Dickcissel F", 1, 1, 1, 1, 2, 1, 3],
+["Bobolink breeding M", 1, 1, 4, 3, 2, 1, 1],
+["Pine Siskin", 1, 1, 3, 1, 2, 2, 1],
+["American Goldfinch nonbreeding F", 1, 1, 1, 1, 1, 2, 1],
 
-["Great Crested Flycatcher", 1, 2],
-["Yellow-throated  Vireo", 1, 2],
-["Blue-headed Vireo", 1, 2],
-["Philadelphia Vireo", 1, 2],
-["Horned Lark", 1, 2],
-["Golden-crowned Kinglet F", 1, 2],
-["Blue-winged Warbler", 1, 2],
-["Golden-winged Warbler M", 1, 2],
-["Golden-winged Warbler F", 1, 2],
-["Yellow Warbler F", 1, 2],
-["Magnolia Warbler breeding M", 1, 2],
-["Magnolia Warbler breeding F", 1, 2],
-["Magnolia Warbler nonbreeding", 1, 2],
-["Cape May Warbler F", 1, 2],
-["Yellow-rumped Warbler breeding M", 1, 2],
-["Yellow-rumped Warbler nonbreeding M", 1, 2],
-["Yellow-rumped Warbler breeding F", 1, 2],
-["Black-throated Green Warbler M", 1, 2],
-["Black-throated Green Warbler F", 1, 2],
-["Pine Warbler breeding, nonbreeding M", 1, 2],
-["Palm Warbler nonbreeding", 1, 2],
-["American Redstart F", 1, 2],
-["Connecticut Warbler M", 1, 2],
-["Connecticut Warbler F", 1, 2],
-["Mourning Warbler M", 1, 2],
-["Mourning Warbler F", 1, 2],
-["Common Yellowthroat M", 1, 2],
-["Common Yellowthroat F", 1, 2],
-["Wilson's Warbler M", 1, 2],
-["Wilson's Warbler F", 1, 2],
-["Canada Warbler M", 1, 2],
-["Canada Warbler F", 1, 2],
+["Great Crested Flycatcher", 1, 2, 1, 3, 1, 1, 1],
+["Yellow-throated  Vireo", 1, 2, 1, 1, 1, 2, 2],
+["Blue-headed Vireo", 1, 2, 1, 1, 1, 2, 2],
+["Philadelphia Vireo", 1, 2, 1, 1, 1, 1, 3],
+["Horned Lark", 1, 2, 1, 2, 2, 1, 4],
+["Golden-crowned Kinglet F", 1, 2, 1, 1, 1, 2, 3],
+["Blue-winged Warbler", 1, 2, 1, 1, 1, 2, 1],
+["Golden-winged Warbler M", 1, 2, 1, 3, 1, 2, 4],
+["Golden-winged Warbler F", 1, 2, 1, 3, 1, 2, 4],
+["Yellow Warbler F", 1, 2, 1, 1, 1, 1, 1],
+["Magnolia Warbler breeding M", 1, 2, 3, 2, 3, 2, 3],
+["Magnolia Warbler breeding F", 1, 2, 3, 1, 2, 2, 3],
+["Magnolia Warbler nonbreeding", 1, 2, 3, 1, 2, 2, 2],
+["Cape May Warbler F", 1, 2, 3, 1, 1, 2, 2],
+["Yellow-rumped Warbler breeding M", 1, 2, 3, 1, 2, 2, 3],
+["Yellow-rumped Warbler nonbreeding M", 1, 2, 3, 1, 2, 2, 3],
+["Yellow-rumped Warbler breeding F", 1, 2, 3, 1, 2, 2, 3],
+["Black-throated Green Warbler M", 1, 2, 3, 3, 1, 2, 3],
+["Black-throated Green Warbler F", 1, 2, 3, 1, 1, 2, 3],
+["Pine Warbler breeding, nonbreeding M", 1, 2, 3, 1, 1, 2, 2],
+["Palm Warbler nonbreeding", 1, 2, 3, 1, 2, 1, 3],
+["American Redstart F", 1, 2, 1, 1, 1, 2, 1],
+["Connecticut Warbler M", 1, 2, 1, 3, 1, 1, 2],
+["Connecticut Warbler F", 1, 2, 1, 3, 1, 1, 2],
+["Mourning Warbler M", 1, 2, 1, 3, 1, 1, 1],
+["Mourning Warbler F", 1, 2, 1, 3, 1, 1, 1],
+["Common Yellowthroat M", 1, 2, 1, 1, 1, 1, 4],
+["Common Yellowthroat F", 1, 2, 1, 1, 1, 1, 1],
+["Wilson's Warbler M", 1, 2, 1, 1, 1, 1, 1],
+["Wilson's Warbler F", 1, 2, 1, 1, 1, 1, 1],
+["Canada Warbler M", 1, 2, 3, 1, 1, 1, 2],
+["Canada Warbler F", 1, 2, 3, 1, 1, 1, 2],
 
-["Scarlet Tanager F, nonbreeding M", 1, 1],
-["Dickcissel M", 1, 1],
+["Scarlet Tanager F, nonbreeding M", 1, 1, 1, 1, 1, 1, 1],
+["Dickcissel M", 1, 1, 1, 2, 2, 1, 3],
 
-["Eastern Meadowlark", 1, 2],
+["Eastern Meadowlark", 1, 2, 3, 2, 2, 1, 3],
 
-["Yellow-headed Blackbird M", 1, 1],
-["Yellow-headed Blackbird F", 1, 1],
-["American Goldfinch breeding F, nonbreeding M", 1, 1],
+["Yellow-headed Blackbird M", 1, 1, 4, 1, 3, 3, 1],
+["Yellow-headed Blackbird F", 1, 1, 4, 1, 1, 3, 1],
+["American Goldfinch breeding F, nonbreeding M", 1, 1, 1, 1, 1, 2, 1],
 
-["Eastern Kingbird", 1, 2],
+["Eastern Kingbird", 1, 2, 1, 1, 3, 1, 1],
 
-["Cliff Swallow", 1, 5],
-["Barn Swallow", 1, 5],
+["Cliff Swallow", 1, 5, 1, 3, 2, 1, 1],
+["Barn Swallow", 1, 5, 1, 3, 3, 1, 1],
 
-["White-breasted Nuthatch M", 1, 2],
-["White-breasted Nuthatch F", 1, 2],
-["Eastern Bluebird M", 1, 2],
-["Eastern Bluebird F", 1, 2],
-["American Robin", 1, 2],
-["Gray Catbird", 1, 2],
-["Chestnut-sided Warbler nonbreeding", 1, 2],
+["White-breasted Nuthatch M", 1, 2, 1, 1, 1, 1, 1],
+["White-breasted Nuthatch F", 1, 2, 1, 1, 1, 1, 1],
+["Eastern Bluebird M", 1, 2, 1, 1, 1, 1, 1],
+["Eastern Bluebird F", 1, 2, 1, 1, 1, 1, 1],
+["American Robin", 1, 2, 1, 1, 1, 1, 2],
+["Gray Catbird", 1, 2, 4, 3, 3, 1, 1],
+["Chestnut-sided Warbler nonbreeding", 1, 2, 1, 1, 2, 2, 2],
 
-["Eastern Towhee M", 1, 1],
-["Eastern Towhee F", 1, 1],
+["Eastern Towhee M", 1, 1, 1, 3, 3, 3, 1],
+["Eastern Towhee F", 1, 1, 1, 3, 1, 3, 1],
 
-["Red-breasted Nuthatch", 1, 2],
-["Ovenbird", 1, 2],
-["Golden-crowned Kinglet M", 1, 2],
-["Blackburnian Warbler M", 1, 2],
-["Ruby-crowned Kinglet", 1, 2],
-["Bohemian Waxwing", 1, 2],
-["Nashville Warbler", 1, 2],
-["Northern Parula", 1, 2],
-["Yellow Warbler M", 1, 2],
-["Chestnut-sided Warbler breeding M", 1, 2],
-["Cape May Warbler M", 1, 2],
-["Palm Warbler breeding", 1, 2],
-["Cedar Waxwing", 1, 2],
-["Orange-crowned Warbler", 1, 2],
-["Chestnut-sided Warbler breeding F", 1, 2],
-["Bay-breasted Warbler breeding M", 1, 2],
-["Bay-breasted Warbler nonbreeding M", 1, 2],
-["Bay-breasted Warbler breeding F", 1, 2],
-["Blackburnian Warbler F", 1, 2],
-["American Redstart M", 1, 2],
-["Baltimore Oriole F", 1, 2],
+["Red-breasted Nuthatch", 1, 2, 1, 1, 1, 1, 2],
+["Ovenbird", 1, 2, 3, 1, 1, 1, 2],
+["Golden-crowned Kinglet M", 1, 2, 1, 1, 1, 2, 3],
+["Blackburnian Warbler M", 1, 2, 3, 1, 2, 2, 3],
+["Ruby-crowned Kinglet", 1, 2, 1, 1, 1, 2, 2],
+["Bohemian Waxwing", 1, 2, 1, 3, 1, 3, 4],
+["Nashville Warbler", 1, 2, 1, 1, 1, 1, 2],
+["Northern Parula breeding M", 1, 2, 1, 2, 1, 2, 2],
+["Northern Parula F, nonbreeding M", 1, 2, 1, 1, 1, 2, 2],
+["Yellow Warbler M", 1, 2, 3, 1, 1, 1, 1],
+["Chestnut-sided Warbler breeding M", 1, 2, 1, 1, 1, 2, 4],
+["Cape May Warbler M", 1, 2, 3, 1, 2, 2, 4],
+["Palm Warbler breeding", 1, 2, 3, 1, 2, 1, 3],
+["Cedar Waxwing", 1, 2, 1, 3, 1, 1, 4],
+["Orange-crowned Warbler", 1, 2, 1, 1, 1, 1, 3],
+["Chestnut-sided Warbler breeding F", 1, 2, 1, 1, 2, 2, 2],
+["Bay-breasted Warbler breeding M", 1, 2, 1, 3, 2, 2, 4],
+["Bay-breasted Warbler nonbreeding M", 1, 2, 1, 1, 2, 2, 1],
+["Bay-breasted Warbler breeding F", 1, 2, 1, 1, 2, 2, 1],
+["Blackburnian Warbler F", 1, 2, 3, 1, 2, 2, 3],
+["American Redstart M", 1, 2, 1, 3, 3, 2, 1],
+["Baltimore Oriole F", 1, 2, 1, 1, 1, 2, 1],
 
-["Scarlet Tanager breeding M", 1, 1],
-["Northern Cardinal M", 1, 1],
-["Northern Cardinal F", 1, 1],
-["Rose-breasted Grosbeak M", 1, 1],
-["Purple Finch M", 1, 1],
-["House Finch M", 1, 1],
-["Common Redpoll", 1, 1],
-["Red-winged Blackbird M", 1, 1],
+["Scarlet Tanager breeding M", 1, 1, 1, 1, 1, 1, 1],
+["Northern Cardinal M", 1, 1, 1, 3, 1, 1, 1],
+["Northern Cardinal F", 1, 1, 1, 1, 1, 1, 1],
+["Rose-breasted Grosbeak M", 1, 1, 1, 3, 3, 2, 1],
+["Purple Finch M", 1, 1, 1, 1, 2, 1, 1],
+["House Finch M", 1, 1, 3, 1, 2, 1, 1],
+["Common Redpoll", 1, 1, 3, 3, 2, 2, 1],
+["Red-winged Blackbird M", 1, 1, 4, 3, 3, 1, 1],
 
-["Baltimore Oriole M", 1, 2],
+["Baltimore Oriole M", 1, 2, 1, 3, 3, 2, 1],
 
-["American Goldfinch breeding M", 1, 1]
+["American Goldfinch breeding M", 1, 1, 1, 1, 1, 2, 1]
 ];
 
 /* 
@@ -296,6 +297,61 @@ if (questionTwoAnswer > 0) {
   var twoValue = "undefined";
 }
 
+// question three
+
+
+var threeValue = 0;
+var questionThree = prompt("Is the streaking/spotting below, 1 = plain, 2 = spotted, 3 = streaked, or 4 = all dark?");
+var questionThreeAnswer = parseInt(questionThree);
+if (questionThreeAnswer > 0) {
+  var threeValue = questionThreeAnswer;
+} else {
+  var threeValue = "undefined";
+}
+
+// question four
+
+var fourValue = 0;
+var questionFour = prompt("Is the throat/chest pattern, 1 = pale, 2 = Dark band on lower throat or upper chest, 3 = all dark?");
+var questionFourAnswer = parseInt(questionFour);
+if (questionFourAnswer > 0) {
+  var fourValue = questionFourAnswer;
+} else {
+  var fourValue = "undefined";
+}
+
+// question five
+
+var fiveValue = 0;
+var questionFive = prompt("Is the pattern on back, 1 = plain, 2 = streaked, 3 = solid blackish?");
+var questionFiveAnswer = parseInt(questionFive);
+if (questionFiveAnswer > 0) {
+  var fiveValue = questionFiveAnswer;
+} else {
+  var fiveValue = "undefined";
+}
+
+// question six
+
+var sixValue = 0;
+var questionSix = prompt("Is the pattern on wings, 1 = Wing bars weak to absent, 2 = Conspicuous pale wing bar(s), 3 = Pale patch at primary bases?");
+var questionSixAnswer = parseInt(questionSix);
+if (questionSixAnswer > 0) {
+  var sixValue = questionSixAnswer;
+} else {
+  var sixValue = "undefined";
+}
+
+// question seven
+
+var sevenValue = 0;
+var questionSeven = prompt("Is the pattern on face, 1 = plain, 2 = eye ring/spectacles, 3 = Pale stripe over eye, or 4 = Dark mask?");
+var questionSevenAnswer = parseInt(questionSeven);
+if (questionSevenAnswer > 0) {
+  var sevenValue = questionSevenAnswer;
+} else {
+  var sevenValue = "undefined";
+}
 
 
 for (var i = 0; i < birdsInfo.length; i += 1 ){
@@ -346,5 +402,5 @@ for (var i = 0; i < birdsInfo.length; i += 1 ){
 
 html = "Based on your answers..."
 html += '<h2>These are the possible birds: </h2>'; 
-html += buildList( possibleOne );
+html += buildList( possibleTotal );
 print(html)
