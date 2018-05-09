@@ -214,13 +214,13 @@ The name possibleNumber for the following arrays indicates the qualities of the 
 
 */
 
-var possibleOne = [ ];
-var possibleTwo = [ ];
-var possibleThree = [ ];
-var possibleFour = [ ];
-var possibleFive = [ ];
-var possibleSix = [ ];
-var possibleSeven = [ ];
+var possibleOne = false;
+var possibleTwo = false;
+var possibleThree = false;
+var possibleFour = false;
+var possibleFive = false;
+var possibleSix = false;
+var possibleSeven = false;
 var possibleTotal = [ ];
 
 var oneValue
@@ -363,36 +363,14 @@ for (var i = 0; i < birdsInfo.length; i += 1 ){
     responseSix = birdsInfo [i][6];
     responseSeven = birdsInfo [i][7];
     
-    possibleOne = birdsInfo [i][1];
-    possibleTwo = birdsInfo [i][1][2];
-    possibleThree = birdsInfo [i][1][2][3];
-    possibleFour = birdsInfo [i][1][2][3][4];
-    possibleFive = birdsInfo [i][1][2][3][4][5];
-    possibleSix = birdsInfo [i][1][2][3][4][5][6];
-    possibleSeven = birdsInfo [i][1][2][3][4][5][6][7];
+    
 
     name = birdsInfo [i][0];
-    if (responseOne == questionOneAnswer) {
-        possibleOne = true;
-    } if (responseTwo == questionTwoAnswer) {
-        possibleTwo = true;
-        if (responseThree == questionThreeAnswer) {
-          possibleThree = true;
-          if (responseFour == questionFourAnswer) {
-            possibleFour == true;
-            if (responseFive == questionFiveAnswer) {
-              possibleFive == true;
-              if (responseSix == questionSixAnswer) {
-                possibleSix == true;
-                if (responseSeven == questionSevenAnswer) {
-                  possibleSeven == true;
-                }
-              }
-            }
-          }
-        }
-    }
-
+    
+    if (responseOne == questionOneAnswer && responseTwo == twoValue && responseThree == threeValue && responseFour == fourValue && responseFive == fiveValue && responseSix == sixValue && responseSeven == sevenValue) {
+      possibleTotal.push(name);
+    } 
+     
     
     
     
